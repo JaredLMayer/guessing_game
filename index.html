@@ -1,0 +1,75 @@
+<!-- WHAT TO TURN IN?
+
+2-4 Buttons
+1 Input Field
+A unique design
+HTML File
+CSS File
+Using Twitter Bootstrap is OPTIONAL
+ASSIGNMENT
+
+The Guessing Game Project is a two part project. The first part involves creating a HTML and CSS file and create the elements of the project such as buttons to click, input fields to collect data, and more. Here is the Guessing Game Example Project. The example is a simple implementation of the guessing game. We expect you to create a more personalized and cleaner design! During this section, do not worry about adding any functionality(JavaScript or jQuery) focus on all the HTML and CSS elements of the project! You are allowed (optional) to use Twitter Bootstrap to make CSS styling easy. If you are unfamiliar with Twitter Bootstrap there are a few short Team Treehouse Tutorials Twitter Bootstrap Tutorials - First 3 Sections. If you want more information about the project, read the section below.
+
+GUESSING GAME PROJECT OVERVIEW
+
+The guessing game tests your basic knowledge of JavaScript and jQuery. The game is simple, guess a number between 1-100. The app should respond and indicate if you are 'hot' or 'cold' based on how close you are to the number you are trying to guess.
+
+In order to create this project you are going to need the following files:
+
+HTML File
+CSS File
+JS File
+ -->  
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jared Mayer's Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="container">
+      <header class="page-header">
+        <h3>Jared Mayer's Guessing Game</h3>
+      </header>   
+      <div style="text-align:center" class="container container-table">
+        <h1>Welcome! Let's Play!</h1>
+        <p class="lead">Guess the number between 1 and 100 below</p>
+        <div class="form-group">
+            <div class="actionarea">
+            <h1 id="winner-loser"></h1>    
+                <input style="text-align:center" type="text" placeholder="Input Number 1-100" class="form-control" id="guess"></input>
+            <h3 id="counter"></h3>    
+            <h2 id="message"></h2>
+            <h4 id="guessInfoMessage"></h4>
+        <div class="buttons">    
+          <p class="btn-group" id="submit">
+            <a id="submit-btn" class="btn btn-success btn-lg" href="#">Submit Guess</a>
+          <div class="btn-group" id="retryhint">
+              <a id='play-again' class="btn btn-default btn-lg" href="#" >Play Again</a>
+              <a id="hint-btn" class="btn btn-default btn-lg" href="#" >Hint</a>
+              <h4 id="hintText"></h4>
+              </div>
+            </div> 
+            </div>
+          </div> 
+        </p> 
+      </div>
+
+    </div>
+        <link href="css/main.css" rel="stylesheet" media="screen">
+    <canvas height='1' id='confetti' width='1'></canvas>
+    
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="js/applicationJquery.js"></script>      
+<script type="text/javascript" src="js/guessingGame.js"></script>
+  </body>
+</html>

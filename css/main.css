@@ -1,0 +1,51 @@
+/*confetti*/
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  height: 100%;
+  width: 100%;
+}
+#confetti{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50%;
+  width: 100%;
+}
+.container.container-table {
+    height: 100%;
+    display: table;
+    color: #8888DE;
+}
+.page-header {
+    color: #9C9CB7;
+}
+input#guess {
+    width: 278px;
+    font-size: 20pt;
+    height: 62px;
+    display: block;
+    margin: 0 auto;
+}
+.container.container-table {
+    height: 100%;
+    display: table;
+}
+h2#message{
+    font-size: 15pt;
+    color: #F55656;
+    opacity: 0.6;
+}
+h3#counter {
+    font-size: 20pt;
+    color: rgba(94, 177, 193, 0.67);
+}
+h4#guessInfoMessage {
+    color: #A0DEEA;
+}
+body div div h1{
+    -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;    
+}
